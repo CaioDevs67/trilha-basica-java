@@ -41,7 +41,7 @@ public class operadores {
         System.out.println(resto);
         System.out.println(incremento);
         System.out.println(decremento);
-
+        System.out.println(" ");
 
         /* 
             Operadores Relacionais (Comparação) 
@@ -58,7 +58,7 @@ public class operadores {
                 <=          Menor ou igual
 
         */
-
+            System.out.println(" ");
             System.out.println("Exemplos de operadores relacionais: ");
 
             int idade = 18;
@@ -69,7 +69,54 @@ public class operadores {
             System.out.println(idade < 18);
             System.out.println(idade >= 18);
             System.out.println(idade <= 18);
+            System.out.println(" ");
 
-        
+        /* 
+            Operadores Lógicos
+
+            Usados para combinar expressões booleanas.
+
+            Operador    /   Nome    /   Exemplo
+
+            &&              AND         a > 5 && b < 10
+            ||              OU          a > 5 || b < 10
+            !               NOT         !(a > 5)
+         */
+            System.out.println(" ");
+            boolean resultado = (10 > 5 && 3 < 8);
+            System.out.println(resultado); // true
+            System.out.println(" ");
+
+            /* 
+                Operadores de Atribuição
+
+                Atribuim valores a variáveis
+
+                Operador    /   Exemplo    /   Equivalente
+                
+                =               a = 5               
+                +=              a += 3          a = a + 3
+                -=              a -= 2          a = a - 2
+                *=              a *= 4          a = a * 4
+                /=              a /= 2          a = a / 2
+                %=              a %= 3          a = a % 3
+                
+            */
+
+
+            /*
+                Operador Ternário
+
+                Forma compacta de if-else
+
+                    Sintaxe: condicao ? valorSeVerdadeiro : valorSeFalso;
+
+            */
+                    System.out.println(" ");
+                    System.out.println("Exemplos de Operadores Ternario");
+                    int maiorIdade = 20;
+                    String status = (maiorIdade >= 18) ? "Maior de idade" : "Menor de idade";
+                    System.out.println(" ");
+
     }
 }

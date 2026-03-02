@@ -1,18 +1,58 @@
-## Getting Started
+## Operadores em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+    Em Java, operadores são símbolos que realizam operações sobre variáveis e valores (operandos). Abaixo está a classificação técnica e objetiva dos principais operadores da linguagem.
 
-## Folder Structure
+## Operadores Aritméticos
 
-The workspace contains two folders by default, where:
+Usados para cálculos matemáticos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+          Operador   /   Descrição   /   Exemplo
+            +            Soma            a + b
+            -            Subtração       a - b
+            *            Multiplicação   a * b
+            /            Divisão         a / b
+            %            Resto           a % b
+            ++           Incremento      a++ ou ++a
+            --           Decremento      a-- ou --a
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Operadores Relacionais (Comparação)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Retornam TRUE ou FALSE.
 
-## Dependency Management
+            Operador    /   Significado
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+                ==          Igual
+                !=          Diferente
+                >           Maior que
+                <           Menor que
+                >=          Maior ou igual
+                <=          Menor ou igual
+
+## Operadores Lógicos
+
+Usados para combinar expressões booleanas.
+
+            Operador    /   Nome    /   Exemplo
+
+            &&              AND         a > 5 && b < 10
+            ||              OU          a > 5 || b < 10
+            !               NOT         !(a > 5)
+
+## Operadores de Atribuição
+
+Atribuim valores a variáveis
+
+            Operador    /   Exemplo    /   Equivalente
+        
+            =               a = 5               
+            +=              a += 3          a = a + 3
+            -=              a -= 2          a = a - 2
+            *=              a *= 4          a = a * 4
+            /=              a /= 2          a = a / 2
+            %=              a %= 3          a = a % 3
+
+## Operador Ternário
+
+Forma compacta de if-else
+
+            Sintaxe: condicao ? valorSeVerdadeiro : valorSeFalso;
